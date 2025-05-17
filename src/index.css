@@ -1,0 +1,40 @@
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --accent: #ff6b35;
+  --accent-hover: #ff8c5a;
+  --accent-gradient: linear-gradient(135deg, #ff6b35 0%, #ff9e5f 100%);
+  --danger: #ff3e3e;
+  --danger-hover: #ff6b6b;
+  --border: #2a2a2a;
+  --card-shadow: 0 4px 20px rgba(255, 107, 53, 0.15);
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
